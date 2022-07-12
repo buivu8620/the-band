@@ -1,5 +1,10 @@
 /* PC*/
 /* Tablet*/
+@media (min-width: 740px) and (max-width: 1023px) {
+  .modal-container {
+    margin: 0 17px;
+  }
+}
 /* Mobile */
 @media (max-width: 740px) {
   #nav > li {
@@ -53,5 +58,8 @@
   }
   #message {
     margin: 8px 0 16px 0;
+  }
+  .modal-container {
+    margin: 0 10px;
   }
 }
