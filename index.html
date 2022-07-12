@@ -265,9 +265,11 @@
       var mobileMenu = document.querySelector(".mobile-menu-btn");
       var headerHeight = header.clientHeight;
       var more = document.getElementById("more");
+      var headerWidth = header.clientWidth;
       // var moreItems = document.querySelectorAll(".subnav");
       //sửa more bằng merch trên mobile
-      if (headerHeight < 740) {
+      // console.log(headerHeight);
+      if (headerWidth < 740) {
         more.innerText = "Merch";
       }
       mobileMenu.addEventListener("click", function () {
